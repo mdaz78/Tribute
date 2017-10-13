@@ -1,0 +1,275 @@
+/* 
+To remove up the entire space from the four 
+corners of the web page 
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+/*
+To make the header colored and stand out
+*/
+
+header {
+    background-color: #e7e7e7;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/*
+Remove the space that occured between header 
+section of page1
+*/
+
+nav {
+    display: block;
+}
+
+ul,
+li {
+    display: inline;
+}
+
+li a {
+    max-width: 100%;
+    width: 19%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
+    float: left;
+    margin: auto;
+}
+
+li:hover a {
+    background: #B0A1BA;
+    font-weight: bold;
+}
+
+#moveAround {
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+
+/*
+Set the font-face of the Heading of the Page
+*/
+
+h1 {
+    margin-top: -3px;
+    margin-bottom: -5px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+
+/*
+Set the font-face of the q tag inside header element
+*/
+
+header q {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px auto auto auto;
+}
+
+
+/*
+Make all the pages span the entire page
+*/
+
+#page1 {
+    background-color: #f1f1f1;
+    height: 750px;
+}
+
+#page2 {
+    background-color: rgb(222, 228, 228);
+    height: 750px;
+    margin-top: 0px;
+}
+
+#page3 {
+    background-color: #f1f1f1;
+    height: 750px;
+    margin-top: 0px;
+}
+
+#page4 {
+    background-color: rgb(222, 228, 228);
+    height: 750px;
+    margin-top: 0px;
+}
+
+
+/*
+Make image appear in the middle of the page
+*/
+
+#page1 img {
+    display: block;
+    margin: 0 auto;
+    padding: 35px 0 0 0;
+}
+
+
+/*
+Remove space from h3 
+*/
+
+h3 {
+    margin-top: 0px;
+}
+
+
+/*
+Move the article to the center of the page 
+*/
+
+#page1 article {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+/* heading and paragraph of different pages */
+
+.subHeadings {
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.paragraphs {
+    text-align: justify;
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+footer {
+    background-color: #f1f1f1;
+    font-family: cursive;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+
+/* Move back to the top from any page */
+
+.backToTop {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.backToTop a {
+    width: 20%;
+    background-color: #2f3036;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+}
+
+.backToTop a:hover {
+    background: #B0A1BA;
+    font-weight: bold;
+}
